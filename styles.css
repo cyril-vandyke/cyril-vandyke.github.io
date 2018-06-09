@@ -1,0 +1,44 @@
+body {
+    background-color:#F5F5F5;
+}
+
+header{
+    float:center;
+    text-align:center;
+}
+
+#main{
+    text-align: center;
+    justify-content: center;
+    padding-top:250px;
+    padding-bottom:250px;
+}
+
+#main span{
+    font-size:48px;
+}
+
+#if{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#generate{
+    border-radius: 8px;
+    /* border: none; */
+    font-size:24px;
+}
+
+#button-holder{
+    padding-top:10px;
+}
+
+#img-holder{
+    width: 100%;
+    float:bottom;
+}
+
+#the-bet{
+    display:block;
+    margin:auto;
+}
