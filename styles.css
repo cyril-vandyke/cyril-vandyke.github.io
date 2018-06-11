@@ -1,3 +1,7 @@
+html{
+    height: 100%;
+}
+
 body {
     background-color:#F5F5F5;
 }
@@ -7,15 +11,36 @@ header{
     text-align:center;
 }
 
+h1{
+    font-size: 108px;
+}
+
+h2{
+    font-size:64px;
+}
+
 #main{
     text-align: center;
     justify-content: center;
-    padding-top:250px;
-    padding-bottom:250px;
+    margin: 0 auto;
+    min-height: 80%;
 }
 
 #main span{
-    font-size:48px;
+    font-size:64px;
+}
+
+#main-values{
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    display:block;
+    min-height: 80%; 
+}
+
+.inner{
+    margin:auto;
+    padding: 100px 0;
 }
 
 #if{
@@ -33,12 +58,78 @@ header{
     padding-top:10px;
 }
 
+#index-nav {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    width:1036px;
+    text-align: center;
+}
+
+.index-li {
+    position:relative;
+    display: inline-block;
+    min-width:33%;
+}
+
+.index-li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.index-li a:hover {
+    background-color: rgb(194, 194, 194);
+    color:white;
+}
+
+.fa-question, .fa-thumbs-up{
+    padding-right:5px;
+}
+
 #img-holder{
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    float:bottom;
+    text-align: center;
 }
 
 #the-bet{
     display:block;
     margin:auto;
+}
+
+#value-lists{
+    width:100%;
+    padding: 15px;
+}
+#value-lists th{
+    padding-bottom: 10px;
+}
+
+table{
+    width:100%;
+    align-content:center;
+}
+
+td,th{
+    text-align: center;
+}
+
+
+.value-list{
+    width:auto;
+    height:400px;
+    overflow:hidden;
+    overflow-y:scroll;
+    float:center;
+    list-style-type:none;
+}
+
+.bottom-nav ul{
+    list-style-type:none;
 }

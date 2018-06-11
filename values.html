@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="bigiftrue.js"></script>
+        <script src="valueList.js"></script>
         <title>Expansive if Unerring</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="icon" href="favicon.ico" type="image/x-icon">  
@@ -16,27 +16,34 @@
 
     <body>
         <header>
-            <h1>Big if True</h1>
-            <h3>Because WojBombs deserve a more interesting response.</h3>
+            <h2>What am I gonna see?</h1>
         </header>
-        <div class="container" id="main">
-            <div class="inner">
-                <div class="container">
-                    <span id="size">[Size]</span>
-                    <span id="if">if</span>
-                    <span id="truthfulness">[Accuracy]</span>
-                </div>
-                <div class="container" id="button-holder">
-                    <button id="generate"><i class="fa fa-bomb"></i>Generate</button>
-                </div>
-            </div>
+        <div class="container" id="main-values">
+            <span>Currently, there are: </span>
+            <span><span id="num-size">#</span> values for size.</span>
+            <span><span id="num-truth">#</span> values for truthiness.</span>
+            <span>Together, that makes <span id="num-combos">#</span> possible combinations!</span>
+        </div>
+        <div class="container" id="value-lists">
+            <table>
+                <tr>
+                    <th>Possible Size Values</th>
+                    <th>Possible Truth Values</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul class="value-list" id="size-list"></ul>
+                    </td>
+                    <td>
+                        <ul class="value-list" id="truth-list"></ul>
+                    </td>
+                </tr>
+            </table>
         </div>
         <div class="container" id="img-holder">
             <div class="bottom-nav">
-                <ul id="index-nav">
-                    <li class="index-li" title="The picture below"><a><i class="fa fa-question"></i>But Why?</a></li>
-                    <li class="index-li" ><a href="values.html"><i class="fa fa-question"></i>What are the possible values?</a></li>
-                    <li class="index-li" ><a><i class="fa fa-question"></i>Yes but where's [my favorite word]?</a></li>
+                <ul>
+                    <li><a href="index.html"><i class="fa fa-thumbs-up"></i>Alright I get it, send me back.</a></li>
                 </ul>
             </div>
             <img src="bigiftrue.PNG" id="the-bet">
