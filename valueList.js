@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 function SizeList(){
     var sizes = [
-        "large","sizable","substatial","great","huge","immense",
+        "large","sizable","substantial","great","huge","immense",
         "enormous","colossal","massive","mammoth","vast","tremendous",
         "gigantic","giant","monumental","mighty","gargantuan",
         "elephantine","titantic","mountainous","Brobdingnagian",
